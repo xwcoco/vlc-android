@@ -415,6 +415,10 @@ public class VideoGridFragment extends MediaBrowserFragment<VideosModel> impleme
 
 
     @Override
+    public void onMainActionClick(@NotNull View v, int position, @NotNull MediaLibraryItem item) {
+    }
+
+    @Override
     public void onUpdateFinished(RecyclerView.Adapter adapter) {
         if (!mMediaLibrary.isWorking()) mHandler.sendEmptyMessage(UNSET_REFRESHING);
         updateEmptyView();

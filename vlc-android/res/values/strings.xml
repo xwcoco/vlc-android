@@ -696,4 +696,5 @@
     <string name="add_to_new_playlist">Add to new playlist</string>
     <string name="theme_follow_system_mode">Follow system mode</string>
     <string name="resume_card_message">Resume playback of %1$s?</string>
+    <string name="track_number">%s tracks</string>
 </resources>
